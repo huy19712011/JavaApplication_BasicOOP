@@ -18,7 +18,7 @@ public class Email {
     private String password;
     private String department;
     private String email;
-    private int mailboxCapacity;
+    private int mailboxCapacity = 500;
     private String alternateEmail;
     private String companySufix = "bkacad.edu.vn";
     
@@ -69,10 +69,20 @@ public class Email {
     }
     
     // Set the mailbox capacity
+    public void setMailboxCapacity(int mailboxCapacity) {
+        this.mailboxCapacity = mailboxCapacity;
+    }
     
     // Set the alternate email
+    public void setAlternateEmail(String alternateEmail) {
+        this.alternateEmail = alternateEmail;
+    }
     
     // Change the password
+    public void changePassword(String password) {
+        this.password = password;
+    }
+
     
     
             
