@@ -15,7 +15,10 @@ public class EmailApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         // TODO code application logic here
+        Email em1 = new Email("John", "Doe");
+        
     }
-    
+
 }
