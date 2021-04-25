@@ -17,8 +17,10 @@ public class Email {
     private String lastName;
     private String password;
     private String department;
+    private String email;
     private int mailboxCapacity;
     private String alternateEmail;
+    private String companySufix = "bkacad.edu.vn";
     
     // Constructor for firstName, lastName
     public Email(String firstName, String lastName) {
@@ -34,6 +36,10 @@ public class Email {
         // call a method that returns a random password
         this.password = randomPassword(10);
         System.out.println("Your password is: " + this.password);
+        
+        // combine elements to generate email
+        this.email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companySufix;
+        System.out.println("Your email: " + email);
         
     }
     // Ask for the department
