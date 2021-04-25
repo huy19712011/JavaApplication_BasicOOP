@@ -83,8 +83,18 @@ public class Email {
         this.password = password;
     }
 
-    
-    
-            
+    // some getters
+    public String getPassword() {
+        return password;
+    }
+
+    public int getMailboxCapacity() {
+        return mailboxCapacity;
+    }
+
+    public String getAlternateEmail() {
+        return alternateEmail;
+    }
+
     
 }
