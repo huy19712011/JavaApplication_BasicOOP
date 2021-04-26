@@ -10,5 +10,7 @@ package inheritance;
  * @author huynq
  */
 public class Programmer {
+    String name;
+    String address;
     
 }
