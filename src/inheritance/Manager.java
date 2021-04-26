@@ -17,5 +17,6 @@ public class Manager {
     
     void work() {
         System.out.println("I manage team");
+        // using git on netbeans
     }
 }
