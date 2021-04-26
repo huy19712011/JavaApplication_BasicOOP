@@ -45,7 +45,7 @@ public class Email {
     // Ask for the department
     private String inputDepartment() {
         
-        System.out.println("Choose Department:\n1 for Sales\n2 for Development\n3 for Accounting\n4 for none\nEnter: ");
+        System.out.println("Choose Department\n1 for Sales\n2 for Development\n3 for Accounting\n4 for none\nEnter: ");
         
         Scanner in = new Scanner(System.in);
         int dep = in.nextInt();
@@ -94,13 +94,6 @@ public class Email {
 
     public String getAlternateEmail() {
         return alternateEmail;
-    }
-    
-    // show information
-    public void showInfo() {
-        System.out.println("DISPLAY NAME: " + firstName + " " + lastName + "\n" +
-               "COMPANY EMAIL: " + email + "\n" +
-               "MAILBOX CAPACITY: " + mailboxCapacity + " mb");
     }
 
     
