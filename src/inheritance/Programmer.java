@@ -12,5 +12,11 @@ package inheritance;
 public class Programmer {
     String name;
     String address;
+    String phoneNumber;
+    String [] programmingLang;
+    
+    void work() {
+        System.out.println("I write code...");
+    }
     
 }
