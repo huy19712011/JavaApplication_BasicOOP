@@ -13,10 +13,17 @@ public class Programmer {
     String name;
     String address;
     String phoneNumber;
-    String [] programmingLang;
+    String [] programmingLanguages;
+    
+    public Programmer(String name, String address, String phoneNumber, String[] programmingLanguages) {
+        this.name = name;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+        this.programmingLanguages = programmingLanguages;
+    }
     
     void work() {
-        System.out.println("I write code...");
+        System.out.println("I am a programmer, i code...");
     }
     
 }
