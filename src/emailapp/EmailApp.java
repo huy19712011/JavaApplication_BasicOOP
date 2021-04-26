@@ -19,8 +19,10 @@ public class EmailApp {
         // TODO code application logic here
         Email em1 = new Email("John", "Doe");
         
-        em1.setAlternateEmail("new@gmail.com");
-        System.out.println(em1.getAlternateEmail());
+//        em1.setAlternateEmail("new@gmail.com");
+//        System.out.println(em1.getAlternateEmail());
+        
+        em1.showInfo();
     }
 
 }
