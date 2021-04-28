@@ -9,20 +9,18 @@ package inheritance;
  *
  * @author huynq
  */
-public class Manager {
-    String name;
-    String address;
-    String phoneNumber;
+public class Manager extends Employee {
+
     int teamSize;
     
     public Manager(String name, String address, String phoneNumber, int teamSize) {
-        this.name = name;
-        this.address = address;
-        this.phoneNumber = phoneNumber;
+
+        super(name, address, phoneNumber);
+        
         this.teamSize = teamSize;
     }
     
-    void work() {
+    public void work() {
         System.out.println("I am a manager, i manage team of " + teamSize);
     }
 }

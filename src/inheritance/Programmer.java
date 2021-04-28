@@ -9,20 +9,21 @@ package inheritance;
  *
  * @author huynq
  */
-public class Programmer {
-    String name;
-    String address;
-    String phoneNumber;
+public class Programmer extends Employee {
+
+    // Programmer specific fields
     String [] programmingLanguages;
     
+    // Constructor
     public Programmer(String name, String address, String phoneNumber, String[] programmingLanguages) {
-        this.name = name;
-        this.address = address;
-        this.phoneNumber = phoneNumber;
+        
+        super(name, address, phoneNumber);
+        
         this.programmingLanguages = programmingLanguages;
     }
     
-    void work() {
+    // Overridden method
+    public void work() {
         System.out.println("I am a programmer, i code...");
     }
     
