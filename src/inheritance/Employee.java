@@ -9,7 +9,7 @@ package inheritance;
  *
  * @author huynq
  */
-public class Employee {
+public abstract class Employee {
     String name;
     String address;
     String phoneNumber;
@@ -20,7 +20,5 @@ public class Employee {
         this.phoneNumber = phoneNumber;
     }
     
-    public void work() {
-        System.out.println("I am an Employee, i do something");
-    }
+    public abstract void work();
 }
