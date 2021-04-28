@@ -21,6 +21,16 @@ public class Main {
         
         Employee m1 = new Manager("Mike", "Address 2", "Phone 2", 4);
         m1.work();
+        
+        IDancer d1 = new Programmer("Mary", "Address 3", "Phone 3", new String[] {"Java"});
+        d1.dancer();
+        
+        IRunner r1 = new Programmer("Jack", "Address 4", "Phone 4", new String[] {"Java"});
+        r1.run();
+        
+        r1 = new Carpenter();
+        r1.run();
+        
     }
     
 }

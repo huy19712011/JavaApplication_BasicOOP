@@ -9,7 +9,7 @@ package inheritance;
  *
  * @author huynq
  */
-public class Programmer extends Employee {
+public class Programmer extends Employee implements IRunner, IDancer {
 
     // Programmer specific fields
     String [] programmingLanguages;
@@ -25,6 +25,16 @@ public class Programmer extends Employee {
     // Overridden method
     public void work() {
         System.out.println("I am a programmer, i code...");
+    }
+
+    @Override
+    public void run() {
+        System.out.println("Programmer is running");
+    }
+
+    @Override
+    public void dancer() {
+        System.out.println("Programmer is dancing");
     }
     
 }
