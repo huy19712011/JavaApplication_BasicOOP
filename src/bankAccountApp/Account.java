@@ -9,6 +9,6 @@ package bankAccountApp;
  *
  * @author huynq
  */
-public class Account {
+public abstract class Account {
     
 }

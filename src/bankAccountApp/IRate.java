@@ -9,6 +9,6 @@ package bankAccountApp;
  *
  * @author huynq
  */
-public interface IBaseRate {
+public interface IRate {
     
 }

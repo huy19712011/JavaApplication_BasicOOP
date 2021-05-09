@@ -9,6 +9,6 @@ package bankAccountApp;
  *
  * @author huynq
  */
-public class Saving {
+public class Saving extends Account {
     
 }

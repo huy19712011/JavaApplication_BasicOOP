@@ -9,6 +9,6 @@ package bankAccountApp;
  *
  * @author huynq
  */
-public class Checking {
+public class Checking extends Account {
     
 }
