@@ -19,6 +19,7 @@ public class Main {
         Employee p1 = new Programmer("John", "Address 1", "Phone 1", new String[] {"Java"});
         p1.work();
         
+        
         Employee m1 = new Manager("Mike", "Address 2", "Phone 2", 4);
         m1.work();
         
@@ -27,9 +28,11 @@ public class Main {
         
         IRunner r1 = new Programmer("Jack", "Address 4", "Phone 4", new String[] {"Java"});
         r1.run();
+        r1.show();
         
         r1 = new Carpenter();
         r1.run();
+        System.out.println(r1.i);
         
     }
     

@@ -36,5 +36,7 @@ public class Programmer extends Employee implements IRunner, IDancer {
     public void dancer() {
         System.out.println("Programmer is dancing");
     }
+
+    int i = 20;
     
 }

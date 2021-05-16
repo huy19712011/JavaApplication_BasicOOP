@@ -9,6 +9,6 @@ package bankAccountApp;
  *
  * @author huynq
  */
-public abstract class Account {
+public abstract class Account implements IRate {
     
 }

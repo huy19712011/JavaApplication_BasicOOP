@@ -10,6 +10,7 @@ package inheritance;
  * @author huynq
  */
 public interface IRunner {
+    int i = 10;
     void run();
     
     default void show() {
