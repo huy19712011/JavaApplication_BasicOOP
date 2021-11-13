@@ -20,6 +20,7 @@ public class Main {
         LibraryManager lib = new LibraryManager();
         lib.getReaders();
         System.out.println(lib.calculate());
+        System.out.println("Hello");
     }
     
 }
